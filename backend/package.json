@@ -1,0 +1,32 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon -r esm app.js",
+    "dev": "nodemon -r esm ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "botometer": "^1.0.12",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "esm": "^3.2.25",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mime": "^2.5.0",
+    "mongoose": "^5.11.14",
+    "morgan": "~1.9.1",
+    "neo4j-driver": "^4.2.2",
+    "node-botometer-rapid-api": "^1.0.1",
+    "nodemon": "^2.0.7",
+    "oauth-1.0a": "^2.2.6",
+    "pm2": "^4.5.4",
+    "superagent": "^6.1.0",
+    "twitter": "^1.7.1",
+    "unirest": "^0.6.0"
+  }
+}
